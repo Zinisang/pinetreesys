@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+</head>
+
+<style>
+    .registerForm_content{
+        text-align: center;
+    }
+</style>
+
+<body>
+<form action="login.html" method="post">
+    <div>
+        <h1 align="center">회원가입</h1>
+        <div class="registerForm_content">
+            <input type="text" name="id" placeholder="아이디">
+        </div>
+        <div class="registerForm_content">
+            <input type="password" name="password" placeholder="비밀번호">
+        </div>
+        <div class="registerForm_content"
+            <input type="text" name="name" placeholder="이름">
+        </div>
+        <div class="registerForm_content">
+            <input type="email" name="email" placeholder="이메일">
+        </div>
+        <div class="registerForm_content">
+            <input type="tel" name="phoneNumber" placeholder="연락처">
+        </div>
+        <div class="registerForm_content">
+            <select name="workingStatus">
+                <option value=" ">----권한을 확인해주세요---</option>
+                <option value="normalUser">일반사용자</option>
+                <option value="medicalUser">의료인사용자</option>
+            </select>
+        </div>
+        <div class="registerForm_content">
+            <button type="submit">회원가입</button>
+            <button type="reset">다시쓰기</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

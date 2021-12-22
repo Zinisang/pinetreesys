@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+</head>
+
+<style>
+    header {
+        width: 100%;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    .header{
+
+    }
+    ul {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: 86px;
+        justify-content: space-around;
+        background-color: rgba(24, 44, 51, 0.48);
+        position: relative;
+        padding-left: 0px;
+
+    }
+    li{
+        width: 20%;
+        list-style: none;
+        cursor: pointer;
+    }
+    .header_text{
+        padding: 5px 5px;
+        text-align: center;
+        color: white;
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        /*transform: translate( -50%, -50% );*/
+        /*font-size: 10px;*/
+    }
+
+</style>
+
+<header>
+
+<div class="header">
+    <ul>
+        <li onclick="location.href='mypage.html';">
+            <div class="header_text">
+                <p>Home</p>
+            </div>
+        </li>
+        <li onclick="location.href='mypage.html';">
+            <div class="header_text">
+                <p>전체작업목록</p>
+            </div>
+        </li>
+        <li onclick="location.href='mypage.html';">
+            <div class="header_text">
+                <p>전체검수목록</p>
+            </div>
+        </li>
+        <li onclick="location.href='mypage.html';">
+            <div class="header_text">
+                <p>내정보</p>
+            </div>
+        </li>
+        <li onclick="location.href='mypage.html';">
+            <div class="header_text">
+                <p>로그아웃</p>
+            </div>
+        </li>
+
+    </ul>
+</div>
+    <div id="goingTop" onclick="window.scrollTo(0,0);"> ↑</div>
+</header>
+</html>

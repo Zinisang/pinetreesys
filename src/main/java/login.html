@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인</title>
+</head>
+
+<style>
+    .loginForm_content{
+        text-align: center;
+    }
+</style>
+
+<body>
+<form action="workSelect.html" method="post">
+<!--    <p><img src="resources/image/loginPage_background.png"></p>-->
+    <div>
+        <h1 align="center">로그인</h1>
+        <div class="loginForm_content">
+            <label>로그인</label>
+            <input type="text" name="id" placeholder="아이디">
+        </div>
+        <div class="loginForm_content">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="비밀번호">
+        </div>
+        <div class="loginForm_content">
+            <button type="submit" >로그인</button>
+            <button type="button" onclick="location.href='register.html'">회원가입</button>
+        </div>
+
+    </div>
+</form>
+</body>
+</html>
